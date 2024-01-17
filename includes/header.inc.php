@@ -51,7 +51,7 @@ $db = $config->getConnection();
 
               <?php if ($_SESSION["role"] == "atasan"): ?>
                   <li role="presentation"><a href="data-kriteria.php">Kriteria</a></li>
-                  <li role="presentation"><a href="nilai.php">Skala Dasar AHP</a></li>
+                  <li role="presentation"><a href="nilai.php">Skala Dasar</a></li>
                   <li role="presentation"><a href="nilai-awal.php">Nilai Awal</a></li>
               <?php endif; ?>
 
